@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="cargate_udp" type="cargate_node" name="cargate_udp" output="screen">
+    <param name="TargetAddress" value="192.168.122.1" />
+    <param name="MaxThrottle" value="4.0" />
+    <param name="MinThrottle" value="0.75" />
+    <param name="MaxBrake" value="127.5"/>
+    <param name="MinBrake" value="0.0"/>
+    <param name="MaxSteeringAngle" value="530.0" />
+  </node>
+  
+</launch>
